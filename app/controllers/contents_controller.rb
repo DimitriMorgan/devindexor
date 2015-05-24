@@ -1,4 +1,4 @@
-class ContentsController < ApplicationController
+class ContentsController < AdminController
   before_action :set_content, only: [:show, :edit, :update, :destroy]
 
   # GET /contents

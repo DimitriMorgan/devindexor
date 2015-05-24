@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :categories, path: 'admin/category'
   resources :contents, path: 'admin/contents'
   devise_for :users
   root 'display#index'
