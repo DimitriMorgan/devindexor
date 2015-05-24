@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  created_at: 2015-05-24 19:15:23
+  update_at: 2015-05-24 19:15:23
+  title: MyString
+  description: MyString
+  source_path: MyString
+  download_path: MyString
+  category: MyString
+  sub_category: MyString
+  role: 1
+  status: 1
+
+two:
+  created_at: 2015-05-24 19:15:23
+  update_at: 2015-05-24 19:15:23
+  title: MyString
+  description: MyString
+  source_path: MyString
+  download_path: MyString
+  category: MyString
+  sub_category: MyString
+  role: 1
+  status: 1

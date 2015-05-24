@@ -1,0 +1,52 @@
+<p>
+  <strong>Created at:</strong>
+  <%= @content.created_at %>
+</p>
+
+<p>
+  <strong>Update at:</strong>
+  <%= @content.updated_at %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @content.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @content.description %>
+</p>
+
+<p>
+  <strong>Source path:</strong>
+  <%= @content.source_path %>
+</p>
+
+<p>
+  <strong>Download path:</strong>
+  <%= @content.download_path %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @content.category %>
+</p>
+
+<p>
+  <strong>Sub category:</strong>
+  <%= @content.sub_category %>
+</p>
+
+<p>
+  <strong>Note:</strong>
+  <%= @content.note %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @content.status %>
+</p>
+
+<%= link_to 'Edit', edit_content_path(@content) %> |
+<%= link_to 'Back', contents_path %>

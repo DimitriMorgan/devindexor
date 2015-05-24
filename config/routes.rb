@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
+  resources :contents, path: 'admin/contents'
   devise_for :users
   root 'display#index'
-  get 'admin' => 'admin#index'
+  get 'admin' => 'admin#index', as: 'admin_access'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
